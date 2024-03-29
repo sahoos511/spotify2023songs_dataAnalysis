@@ -22,11 +22,11 @@ df.printSchema()
 df.show()
 
 # Define Redshift parameters
-redshift_url = "jdbc:redshift://redshift-cluster-1.co7pnt3adywm.us-east-1.redshift.amazonaws.com:5439/dev"
+redshift_url = "jdbc:redshift://redshifturl/port/databasename" #replace redshift url / port / databasename
 redshift_table = "spotify_songs"
 redshift_properties = {
-    "user": "awsuser",
-    "password": "Apple1234",
+    "user": "user", #replace with user
+    "password": "password", #replace with password
     "driver": "com.amazon.redshift.jdbc42.Driver"
 }
 
